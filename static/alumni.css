@@ -1,0 +1,140 @@
+.body{
+    height: 1000px;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+.college{
+    margin-left: -10px;
+    margin-right:-10px;
+    position: relative;
+}
+.header{
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightcyan;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+}
+.mahe{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.welcome{
+    padding-top: 29px;
+    font-size: xx-large;
+    color: #F58A28;
+}
+.about{
+    padding-left: 60px;
+  padding-top: 35px;
+}
+.visit{
+    font-size: xx-large;
+    color: #F58A28;
+
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.div1{
+    background-color: rgb(186, 185, 185);
+    border-radius: 50px;
+    border-style: solid;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 350px;
+    margin-top: 150px;
+    position: absolute;
+}
+.pic1{
+    margin-top: 25px;
+    margin-left: 35px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #F58A28;
+}
+.alumnipic{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.texts1{
+
+    margin-top: 67px;
+    margin-left: 35px;
+    height: 50px;
+    width: 250px;
+}
+.alumnibutton{
+    
+    background-color: rgb(26, 220, 210);
+    font-size: x-large;
+    border-radius: 50px;
+    border-style: solid;
+    cursor: pointer;
+}
+.div2{
+    background-color: rgb(186, 185, 185);
+    border-radius: 50px;
+    border-style: solid;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 350px;
+    margin-top: 370px;
+    position: absolute;
+}
+.pic2{
+        margin-top: 25px;
+    margin-left: 35px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #F58A28;
+}
+.studentpic{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.texts2{
+    margin-top: 67px;
+    margin-left: 35px;
+    height: 50px;
+    width: 250px;
+}
+.studentbutton{
+    font-size: x-large;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: rgb(26, 220, 210);
+    cursor: pointer;
+}

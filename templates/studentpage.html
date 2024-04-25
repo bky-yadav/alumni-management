@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>ALUMNI MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="./../static/studentpage.css">
+        <script>
+            function redirect(){
+                document.location.href="/redirect1";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="page">
+        <div class="header">
+            <div class="logo">
+                <img class="mahe" src="./../static/mahelogo.png">
+            </div>
+            <div class="text1">
+                <marquee class="welcome"> WELCOME TO MAHE ALUMNI CONNECT</marquee>
+            </div>
+            <div class="about">
+                <a class="visit" target="_blank" href="https://www.manipal.edu/mu.html">
+                    VISIT US
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <img class="college" src="./../static/mit.jpeg">
+            <div class="stud">
+                WELCOME, STUDENT!! <img class="studp" src="./../static/6779820.png">
+                <button class="member" onclick="redirect()">
+                    ALREADY A MEMBER! CONNECT
+                </button>
+            </div>
+            <div class="details">
+                <form action="/studentpage" method='post'>
+                    <div class="row">
+                        <div class="column">
+                            <div class="form-group">
+                                <label class="name" for="field2">FULL NAME:</label>
+                                <input class="input" type="text" id="field2" name="field2" placeholder="FULL NAME">
+                            </div>
+                            <div class="form-group1">
+                                <label class="name" for="field3">GENDER:<br></label>
+                                <input type="radio" id="M" name="GENDER" value="MALE">
+                            <label for="MALE">MALE</label><br>
+                            <input type="radio" id="F" name="GENDER" value="FEMALE">
+                            <label for="FEMALE">FEMALE</label><br>
+                            <input type="radio" id="O" name="GENDER" value="OTHERS">
+                            <label for="OTHERS">OTHERS</label>
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field4">PHONE NUMBER:</label>
+                                <input class="input" type="number" id="field4" name="field4" placeholder="PHONE NUMBER">
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field5">EMAIL:</label>
+                                <input class="input" type="text" id="field5" name="field5" placeholder="EMAIL">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="form-group">
+                                <label class="name" for="field6">AGE:</label>
+                                <input class="input" type="number" id="field6" name="field6" placeholder="AGE">
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field7">BRANCH:</label>
+                                <input class="input" type="text" id="field7" name="field7" placeholder="BRANCH">
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field8">MAIN SKILL:</label>
+                                <input class="input" type="text" id="field8" name="field8" placeholder="MAIN SKILL">
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field9">LINKEDIN PROFILE:</label>
+                                <input class="input" type="url" id="field9" name="field9" placeholder="LINKEDIN PROFILE">
+                            </div>
+                            <div class="form-group">
+                                <label class="name" for="field9">CGPA:</label>
+                                <input class="input" type="number" id="field9" name="field10" placeholder="CGPA">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
+    </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,196 @@
+.body{
+    height: 1000px;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+.college{
+    height: 100%;
+    margin-left: -10px;
+    margin-right:-10px;
+    position: relative;
+}
+.header{
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightcyan;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+}
+.mahe{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.welcome{
+    padding-top: 29px;
+    font-size: xx-large;
+    color: #F58A28;
+}
+.about{
+    padding-left: 60px;
+  padding-top: 35px;
+}
+.visit{
+    font-size: xx-large;
+    color: #F58A28;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.stud{
+    margin-top: 120px;
+    width: 70%;
+    height: 75px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+  font-size: xxx-large;
+  justify-content: center;
+  color:rgb(37, 68, 58);
+    background: transparent;
+    flex-direction: row;
+    
+}
+.studp{
+    top: 0px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color:aquamarine;
+    border-style: solid;
+}
+.branch{
+    position: absolute;
+    margin-top: 180px;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    align-self: center;
+    margin-left: 40px;
+}
+.address{
+    align-self: center;
+    position: absolute;
+    display: flex;
+    margin-top: 180px;
+    width: 400px;
+    height: 400px;
+    margin-left: 480px;
+}
+.intern{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    margin-top: 180px;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    margin-left: 920px;
+}
+.submit{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    margin-top: 750px;
+    margin-left: 600px;
+}
+.btn{
+    width: 250px;
+    height: 80px;
+    font-size: xx-large;
+    border-radius: 30px;
+    border-width: 0;
+    border-color: black;
+    background-color: rgb(125, 208, 208);
+    cursor: pointer;;
+}
+.detail{
+    margin-top: 10px;
+    position: absolute;
+    align-self: center;
+    display: table;
+    flex-direction: column;
+    height: 500px;
+    width: 200px;
+    align-items: center;
+}
+.form-group1{
+    width: 450px;
+    height: 250px;
+    background-color:  rgb(26, 220, 210);
+    margin-top: 290px;
+    margin-left: 100px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: x-large;
+
+}
+.form-group2{
+    width: 450px;
+    height: 120px;
+    background-color: rgb(26, 220, 210);
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: x-large;
+}
+.form-group3{
+    width: 50px;
+    height: 50px;
+}
+.form{
+    height: 700px;
+}
+.submit{
+    font-size: x-large;
+    width: 150px;
+    height: 60px;
+    border-left: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:rgb(26, 220, 210);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: large;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+}

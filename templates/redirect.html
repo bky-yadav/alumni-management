@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>ALUMNI MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="./../static/redirect.css">
+    </head>
+    <body>
+        <div class="page">
+        <div class="header">
+            <div class="logo">
+                <img class="mahe" src="./../static/mahelogo.png">
+            </div>
+            <div class="text1">
+                <marquee class="welcome"> WELCOME TO MAHE ALUMNI CONNECT</marquee>
+            </div>
+            <div class="about">
+                <a class="visit" target="_blank" href="https://www.manipal.edu/mu.html">
+                    VISIT US
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <img class="college" src="./../static/mit.jpeg">
+            <div class="stud">
+                WELCOME, STUDENT!! <img class="studp" src="./../static/6779820.png">
+            </div>           
+             <div class="detail">
+                <form class="form" action="\redirect1" method="post">
+                    <div class="form-group1">
+                        <label  class="name" for="field1">SEARCH BY ADDRESS: <br></label>
+                        <br>
+                        <input type="radio" id="M" name="CITY" value="mumbai">
+                        <label for="M">MUMBAI</label><br>
+                        <input type="radio" id="D" name="CITY" value="delhi">
+                        <label for="D">DELHI</label><br>
+                        <input type="radio" id="B" name="CITY" value="bangalore">
+                        <label for="B">BANGALORE</label><br>
+                        <input type="radio" id="K" name="CITY" value="kolkata">
+                        <label for="K">KOLKATA</label><br>
+                        <input type="radio" id="C" name="CITY" value="chennai">
+                        <label for="C">CHENNAI</label><br>
+                        <input type="radio" id="H" name="CITY" value="hyderabad">
+                        <label for="H">HYDERABAD</label>
+                    </div>
+                    <div class="form-group2">
+                        <label class="name" for="field2"> SEARCH BY INTERNSHIP TYPE:<br></label>
+                        <br>
+                        <input type="radio" id="O" name="TYPE" value="O">
+                        <label for="O">ON SITE</label><br>
+                        <input type="radio" id="W" name="TYPE" value="W">
+                        <label for="W">WORK FROM HOME</label><br>
+                        <input type="radio" id="H" name="TYPE" value="H">
+                        <label for="H">HYBRID</label>
+                        <button class="submit" type="submit">Submit</button>    
+                    </form>
+        </div>
+        </div>
+        </div>
+    </body>
+    </html>
+

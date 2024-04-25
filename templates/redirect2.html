@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>ALUMNI MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="./../static/redirect2.css">
+    </head>
+    <body>
+        <div class="page">
+        <div class="header">
+            <div class="logo">
+                <img class="mahe" src="./../static/mahelogo.png">
+            </div>
+            <div class="text1">
+                <marquee class="welcome"> WELCOME TO MAHE ALUMNI CONNECT</marquee>
+            </div>
+            <div class="about">
+                <a class="visit" target="_blank" href="https://www.manipal.edu/mu.html">
+                    VISIT US
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <img class="college" src="./../static/mit.jpeg">
+            <div class="stud">
+                WELCOME, ALUMNI!!<img class="studp" src="./../static/2620127.png">
+            </div>          
+             <div class="detail">
+                <form class="form" action="/redirect2" method="post">
+                    <div class="form-group1">
+                        <label  class="name" for="field1">SEARCH BY BRANCH: <br></label>
+                        <br>
+                        <input type="radio" id="CSE" name="BRANCH" value="CSE">
+                        <label for="CSE">CSE CORE</label><br>
+                        <input type="radio" id="AI" name="BRANCH" value="AI">
+                        <label for="AI">ARTIFICIAL INTELLIGENCE</label><br>
+                        <input type="radio" id="CY" name="BRANCH" value="CYBER">
+                        <label for="CY">CYBER SECURITY</label><br>
+                        <input type="radio" id="IT" name="BRANCH" value="IT">
+                        <label for="IT">INFORMATION TECHNOLOGY</label><br>
+                        <input type="radio" id="ECE" name="BRANCH" value="ECE">
+                        <label for="ECE">ELECTRICAL & COMMUNICATION</label><br>
+                    </div>
+                    <div class="form-group2">
+                        <label class="name" for="field2"> SEARCH BY MAIN SKILL:<br></label>
+                        <input class="input" type="text" id="field4" name="field4" placeholder="MAIN SKILL">
+                    </div>
+                        <button class="submit" type="submit">Submit</button>
+                    </form>
+        </div>
+        </div>
+        </div>
+    </body>
+    </html>
+

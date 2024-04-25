@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>ALUMNI MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="./../static/alumni.css">
+        <script>
+            function click1(){
+                document.location.href="/alumnipage";
+            }
+            function click2(){
+                document.location.href="/studentpage";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="page">
+        <div class="header">
+            <div class="logo">
+                <img class="mahe" src="./../static/mahelogo.png">
+            </div>
+            <div class="text1">
+                <marquee class="welcome"> WELCOME TO MAHE ALUMNI CONNECT</marquee>
+            </div>
+            <div class="about">
+                <a class="visit" target="_blank" href="https://www.manipal.edu/mu.html">
+                    VISIT US
+                </a>
+            </div>
+        </div>
+        <div class="main1">
+            <img class="college" src="./../static/mit.jpeg">
+            <div class="div1">
+                <div class="pic1">
+                    <img class="alumnipic" src="./../static/2620127.png">
+                </div>
+                <div class="texts1">
+                    <button class="alumnibutton" onclick="click1()">
+                        ALUMNI PAGE
+                    </button>
+                </div>
+            </div>
+            <div class="div2">
+                <div class="pic2">
+                    <img class="studentpic" src="./../static/6779820.png">
+                </div>
+                <div class="texts2">
+                    <button class="studentbutton" onclick="click2()">
+                        STUDENT PAGE
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </body>
+</html>

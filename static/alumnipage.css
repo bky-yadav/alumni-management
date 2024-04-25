@@ -1,0 +1,158 @@
+.body{
+    height: 1000px;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+.college{
+    height: 120%;
+    margin-left: -10px;
+    margin-right:-10px;
+    position: relative;
+}
+.header{
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightcyan;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+}
+.mahe{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.welcome{
+    padding-top: 29px;
+    font-size: xx-large;
+    color: #F58A28;
+}
+.about{
+    padding-left: 60px;
+  padding-top: 35px;
+}
+.visit{
+    font-size: xx-large;
+    color: #F58A28;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.stud{
+    margin-top: 120px;
+    width: 1000px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+  font-size: xxx-large;
+  justify-content: center;
+  color:rgb(37, 68, 58);
+  background: transparent;
+}
+.studp{
+    margin-left: 10px;
+    top: 0px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color:aquamarine;
+    border-style: solid;
+}
+.detail{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(125, 208, 208);
+    margin-top: 300px;
+    margin-left: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+.member{
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+    background-color: rgb(125, 208, 208);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size:large;
+}
+.name{
+    font-size: x-large;
+}
+.form-group1{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: large;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+.field{
+    font-size: x-large;
+}
+.submit{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    color: black;
+    border-radius: 20px;
+    border-width: 1px;
+    cursor: pointer;
+}
+.input{
+    font-size: large;
+}
